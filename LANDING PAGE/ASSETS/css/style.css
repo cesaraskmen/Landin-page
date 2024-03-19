@@ -28,7 +28,7 @@ h1 {
   font-weight: 500;
   text-align: center;
 }
-h3 {
+h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 60px;
   font-weight: 800;
@@ -55,9 +55,7 @@ span {
   align-items: center;
   justify-content: space-evenly;
 }
-img {
-  width: 10%;
-}
+
 .img-principal {
   width: 250px;
 
@@ -74,7 +72,7 @@ img {
   height: 25px;
   border-radius: 7px;
   background-color: #77ebb1;
-  color: #ffffff;
+  color: #000000;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   font-weight: 300;
@@ -105,21 +103,38 @@ img {
 
 .section-2 {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
-
-.card-1 {
-  background-color: #77ebb1;
+.card {
+  width: 70%;
+  height: 350px;
   display: flex;
-  flex-direction: column;
-  width: 784px;
 
   align-items: center;
+  justify-content: center;
 }
-.card-textos {
-  width: 50%;
+.info {
+  width: 100%;
+  height: 250px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-  justify-content: space-between;
+  text-align: center;
+}
+.foto {
+  width: 250px;
+  padding: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 250px;
+  padding: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
