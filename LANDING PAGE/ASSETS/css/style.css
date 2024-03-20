@@ -102,39 +102,20 @@ span {
 /*Aqui comienza la seccion 2*/
 
 .section-2 {
+  width: 70%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 .card {
-  width: 70%;
-  height: 350px;
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-}
-.info {
   width: 100%;
-  height: 250px;
-  display: flex;
   align-items: center;
-  justify-content: center;
-
-  text-align: center;
 }
+
 .foto {
   width: 250px;
-  padding: 19px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 img {
   width: 250px;
   padding: 19px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
